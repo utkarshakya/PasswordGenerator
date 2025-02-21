@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "tailwind": "npx @tailwindcss/cli -i ./index.css -o ./output.css --watch",
-    "server": "npx vite",
+    "vite": "npx vite",
+    "build": "npx vite build",
     "dev": "npx npm-run-all --parallel tailwind server"
   },
   "author": "",

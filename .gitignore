@@ -1,6 +1,7 @@
 # folders
-node_modules/
-.vscode/
+/.vscode/
+/node_modules/
+/dist/
 
 # files
-vite.config.js
+/vite.config.js
